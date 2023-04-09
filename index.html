@@ -13,33 +13,39 @@
         <img class= "logo" src="assets/images/logo.png">
     </h1>
 
-    <div class="game-area"></div>
+    <div class="game-area">
+        <div class="controls-area">
+            <button class= "btn btn--big btn--green">
+                <i class="fas fa-plus"></i>
+            </button>
+            <button class= "btn btn--big btn--blue">
+                <i class="fas fa-minus"></i>
+            </button>
+            <button class= "btn btn--big btn--orange">
+                <i class="fas fa-times"></i>
+            </button>
+            <button class= "btn btn--big btn--red">
+                <i class="fas fa-divide"></i>
+            </button>
+
+        </div>
+    </div>
+    <div class= "question-area">
+        <span id="operand1">0</span>
+        <span id="operator">x</span>
+        <span id="operand2">0</span>
+        <span>=</span>
+        <p class= "answer-message">Enter Answer:</p>
+        <input id="answer-box" type="number">
+    </div>
+    <button class="btn btn--gray">Submit Answer</button>
 
     <div class="score-area">
         <p class="scores">Correct Answers <span id="score">0</span></p>
         <p class="scores">Incorrect Answers<span id="incorrect">0</span></p>
     </div>
-    <nav>
-        <ul>
-            <li><a href="index.html">Stream One</a></li>
-            <li><a href="stream-two.html">Stream Two</a></li>
-            <li><a href="stream-three.html">Stream Three</a></li>
-        </ul>
-    </nav>
-    <h1>Stream One</h1>
-    <div class="card">
-        <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/195px-HTML5_logo_and_wordmark.svg.png" alt="HTML5">
-            <h2>HTML 5</h2>
-        </a>
-    </div>
-    <div class="card">
-        <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/180px-CSS3_logo_and_wordmark.svg.png" alt="CSS3">
-            <h2>CSS3</h2>
-        </a>
+   
 
-    </div>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
